@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Build outputs
+frontend/build/
+frontend/.next/
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Env (no subir secretos)
+.env.local
+.env.production.local
+
+# Test reports
+test_reports/
+test_result.md
+playwright-report/
+test-results/
+
+# OS
+Thumbs.db
