@@ -3,7 +3,7 @@ import axios from "axios";
 const BACKEND_URL = process.env.REACT_APP_BACKEND_URL;
 export const API = `${BACKEND_URL}/api`;
 
-export const api = axios.create({ baseURL: API, timeout: 30000 });
+export const api = axios.create({ baseURL: API, timeout: 90000 });
 
 export const fetchDimensions = () => api.get("/dimensions").then((r) => r.data.dimensions);
 
